@@ -6,6 +6,11 @@ cProcessInfoPlistFile "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/
 cCpResource ../resources/CinderApp.icns ./build/Debug/CoralSimulation.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch.pth CoralSimulation_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation" normal x86_64
 cTouch "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app"
 
@@ -3804,6 +3809,11 @@ c0000000051780B7C0000000000000BA7
 t1366821756
 s2983
 
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Camera.h
+c0000000051780B7C00000000000031A1
+t1366821756
+s12705
+
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/ChanTraits.h
 c0000000051780B7C0000000000000D42
 t1366821756
@@ -3813,6 +3823,16 @@ N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8
 c0000000051780B7C00000000000038D3
 t1366821756
 s14547
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Color.h
 c0000000051780B7C00000000000035A1
@@ -3859,6 +3879,11 @@ c0000000051780B7C0000000000002D7E
 t1366821756
 s11646
 
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Matrix22.h
 c0000000051780B7C0000000000003E52
 t1366821756
@@ -3893,6 +3918,11 @@ N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8
 c0000000051780B7D0000000000000EDA
 t1366821757
 s3802
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Ray.h
 c0000000051780B7D0000000000000AA0
@@ -3934,10 +3964,25 @@ c0000000051780B7D00000000000017F7
 t1366821757
 s6135
 
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/app/App.h
 c0000000051780B7D0000000000008B1F
 t1366821757
 s35615
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/app/AppNative.h
+c0000000051780B7E0000000000000876
+t1366821758
+s2166
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/app/Event.h
 c0000000051780B7E0000000000000A9F
@@ -3979,36 +4024,136 @@ c0000000051780B7E0000000000002552
 t1366821758
 s9554
 
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../../cinder_0.8.5_mac/include/cinder/params/Params.h
+c0000000051780B7E0000000000001280
+t1366821758
+s4736
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../include/Particle.h
+c00000000514328580000000000000254
+t1363355736
+s596
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../include/ParticleController.h
+c0000000051836437000000000000056E
+t1367565367
+s1390
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../include/Quadrant.h
+c000000005149BFC500000000000001F5
+t1363787717
+s501
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../include/Util.h
+c0000000051431FBA0000000000000150
+t1363353530
+s336
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../include/VectorPoint.h
+c00000000514887A80000000000000252
+t1363707816
+s594
+
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../resources/CinderApp.icns
 c000000005183BDA50000000000070375
 t1367588261
 s459637
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp
-c000000005183BDA50000000000000236
-t1367588261
-s566
+c000000005183C16F0000000000000804
+t1367589231
+s2052
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp
+c0000000051482F100000000000000293
+t1363685136
+s659
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp
+c000000005183668100000000000009B5
+t1367565953
+s2485
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp
+c000000005149EDB2000000000000034E
+t1363799474
+s846
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp
+c0000000051431FEE0000000000000251
+t1363353582
+s593
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp
+c000000005183609100000000000002B6
+t1367564433
+s694
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulation.LinkFileList
-c000000005183BDC100000000000000A2
-t1367588289
-s162
+c000000005183C0E000000000000003A3
+t1367589088
+s931
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o
-t1367588293
-s1688828
+t1367589232
+s2014024
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.o
+t1367589089
+s121020
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.o
+t1367589089
+s2205016
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.o
+t1367589089
+s94164
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.o
+t1367589089
+s72636
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.o
+t1367589089
+s92240
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulation.LinkFileList
-c000000005183BDE500000000000000A4
-t1367588325
-s164
+c000000005183BF9C00000000000003AF
+t1367588764
+s943
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o
-t2
-s0
+t1367589059
+s2035976
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.o
+t1367588765
+s126056
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.o
+t1367588765
+s2216576
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.o
+t1367588765
+s98216
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.o
+t1367588765
+s76072
+
+N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.o
+t1367588765
+s96192
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app
-t1367588294
+t1367589233
 s102
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/Info.plist
@@ -4016,8 +4161,8 @@ t1367588289
 s1471
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation
-t1367588294
-s2764660
+t1367589233
+s4186356
 
 N/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/PkgInfo
 t1367588289
@@ -4080,8 +4225,8 @@ t1367588292
 s64067256
 
 N/var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch.pth
-t2
-s0
+t1367588328
+s63446112
 
 NInfo.plist
 c000000005183BDA50000000000000462
@@ -4091,13 +4236,28 @@ s1122
 CBuild AST from "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp"
 r0
 
+CBuild AST from "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp"
+r0
+
+CBuild AST from "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp"
+r0
+
+CBuild AST from "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp"
+r0
+
+CBuild AST from "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp"
+r0
+
+CBuild AST from "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp"
+r0
+
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies83f77165f533b741^52ee7a65f533b741^---0#1#0#--18"Check dependencies36"66EF740C-B88D-4F71-89B9-7742951C5295-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies89787bfcf833b741^653991fcf833b741^---0#1#0#--18"Check dependencies36"B0C62EDB-1259-489E-9CB8-5EABB9614D11-
 
 CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389281092.695215
-e389281093.809205
+s389282031.473420
+e389282032.732839
 r1
 xCompileC
 x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o
@@ -4106,11 +4266,76 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp7711b244f533b741^aa27cf45f533b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp0000000000000000^3326"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o ../src/CoralSimulationApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o"36"CFF117C2-30F8-4B99-9F95-A59CC1D16A5C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp125079eff833b741^029bbbf0f833b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp0000000000000000^3326"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o ../src/CoralSimulationApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulationApp.o"36"EA6545D3-2E5F-4434-9059-E6EB50D0D5F6-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281888.187931
+e389281889.469551
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp813f3060f833b741^ba327861f833b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp0000000000000000^3266"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.o ../src/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Particle.o"36"70DF872A-0918-4AB7-8CDA-40955976D8B8-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281888.187923
+e389281890.010912
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp96423060f833b741^21cb0262f833b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp0000000000000000^3326"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.o ../src/ParticleController.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/ParticleController.o"36"900E4789-C914-4324-B2E4-5729028BEE48-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281888.187939
+e389281889.455034
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp7a393060f833b741^2e8c7461f833b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp0000000000000000^3266"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.o ../src/Quadrant.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Quadrant.o"36"83648B1C-DCC3-4ED1-A9C8-A596369BDB6E-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281888.187961
+e389281889.432477
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp35413060f833b741^91d46e61f833b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/Util.cpp0000000000000000^3242"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.o ../src/Util.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/Util.o"36"6705B42F-CFBE-44B5-AD5E-FF1552C9090C-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281888.187951
+e389281889.438793
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp9e403060f833b741^8f537061f833b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp0000000000000000^3284"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.o ../src/VectorPoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/i386" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-coiexuvpoemzlqdlvcvjmbsvacgp/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/VectorPoint.o"36"98262286-E7B1-481E-92F4-2BBA4519281F-
 
 CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389281128.850569
-e389281129.945740
+s389282044.604402
+e389282045.870214
 r1
 xCompileC
 x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o
@@ -4119,7 +4344,72 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp6fd5d968f533b741^091bf269f533b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp0000000000000000^3340"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o ../src/CoralSimulationApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o"36"34395ED9-F098-4F7A-AF37-F3D62FAF9955-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp27dd9afcf833b741^37c6defdf833b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp0000000000000000^3340"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o ../src/CoralSimulationApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/CoralSimulationApp.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulationApp.o"36"34242AA1-9980-4C34-9658-EB4B2714ACD9-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281564.369227
+e389281565.482118
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cppdeab5e1cf733b741^8b6c7b1df733b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp0000000000000000^3280"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.o ../src/Particle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Particle.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Particle.o"36"8E6714C8-29B4-4EE3-BB87-6DAE9831813C-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281564.369242
+e389281565.949950
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp3db95e1cf733b741^6a32f31df733b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp0000000000000000^3340"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.o ../src/ParticleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/ParticleController.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/ParticleController.o"36"79813D1C-A156-4B54-9166-2E4FEBEB2CE4-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281564.369250
+e389281565.443264
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cppc0ae5e1cf733b741^f778711df733b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp0000000000000000^3280"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.o ../src/Quadrant.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Quadrant.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Quadrant.o"36"CF8A63B1-6CE1-40BF-9A41-134D85258225-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281564.369259
+e389281565.401709
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp2ead5e1cf733b741^39d5661df733b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/Util.cpp0000000000000000^3256"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.o ../src/Util.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/Util.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/Util.o"36"959DE230-1457-4F71-9D2C-4D83A02C823F-
+
+CCompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389281564.369266
+e389281565.451538
+r1
+xCompileC
+x./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.o
+x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp14af5e1cf733b741^9a97731df733b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp0000000000000000^3298"CompileC ./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.o ../src/VectorPoint.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -include /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch -MMD -MT dependencies -MF "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.d" --serialize-diagnostics "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.dia" -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../src/VectorPoint.cpp" -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/VectorPoint.o"36"767946DF-9290-40C8-954E-FFC84E3740DD-
 
 CCpResource ../resources/CinderApp.icns ./build/Debug/CoralSimulation.app/Contents/Resources/CinderApp.icns
 s389281089.419845
@@ -4131,24 +4421,24 @@ x./build/Debug/CoralSimulation.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy ./build/Debug/CoralSimulation.app/Contents/Resources/CinderApp.icns3ca56b41f533b741^e1d36c41f533b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/Resources/CinderApp.icns000000000080d041^502"CpResource ../resources/CinderApp.icns ./build/Debug/CoralSimulation.app/Contents/Resources/CinderApp.icns    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/../resources/CinderApp.icns" "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/Resources"36"8AF88A1E-AB95-40E5-A423-879586607C4E-
 
 CLd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation" normal i386
-s389281093.815968
-e389281094.666212
+s389282032.739681
+e389282033.404617
 r1
 xLd
 x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation7ff5d045f533b741^9c8caa46f533b741^---0#0#0#--1140"Ld ./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation normal i386    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -filelist "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulation.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation"36"0D9CDB5D-3CE2-4FBE-8625-DF3EFCC83CAA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulatione36dbdf0f833b741^219467f1f833b741^---0#0#0#--1140"Ld ./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation normal i386    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -filelist "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/i386/CoralSimulation.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation"36"FB583176-B7CE-4591-9024-41CC99090B20-
 
 CLd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation" normal x86_64
-s389281129.952367
-e389281130.788563
+s389282045.877025
+e389282046.591420
 r1
 xLd
 x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation83def369f533b741^33dfc96af533b741^---0#0#0#--1146"Ld ./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation normal x86_64    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -filelist "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulation.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation"36"BB9702B8-071B-4FC0-83F2-DA728F5CA17C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation7d95e0fdf833b741^f56797fef833b741^---0#0#0#--1146"Ld ./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation normal x86_64    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" -filelist "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/Objects-normal/x86_64/CoralSimulation.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/MacOS/CoralSimulation"36"D1A800E5-D660-4503-A367-A8934079A9FA-
 
 CProcessInfoPlistFile "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app/Contents/Info.plist" Info.plist
 s389281089.409067
@@ -4192,10 +4482,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile CoralSimulation_Prefix.pche4a08065f533b741^a131d768f533b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/mikevanis/Dropbox/My%20Files/Cinder/CoralSimulation/xcode/CoralSimulation_Prefix.pch0000000000000000^3268"ProcessPCH++ /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch.pth CoralSimulation_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-generated-files.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-own-target-headers.hmap" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-all-target-headers.hmap" -iquote "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/CoralSimulation-project-headers.hmap" -iquote../../cinder_0.8.5_mac/include -iquote../include "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug/include" -I../../cinder_0.8.5_mac/boost "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources/x86_64" "-I/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/CoralSimulation.build/Debug/CoralSimulation.build/DerivedSources" "-F/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/build/Debug" --serialize-diagnostics /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch.dia -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/CoralSimulation_Prefix.pch" -o /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rh/12psszp95zbgt31jzp54wrnr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoralSimulation_Prefix-hhyxhtbqqnanxcbjqppwaiiedqkv/CoralSimulation_Prefix.pch.d36"D0EDA6B4-D2CE-4B0F-9E12-45D0EC69A27D-
 
 CTouch "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app"
-s389281130.796578
-e389281130.802596
+s389282046.599460
+e389282046.604756
 r1
 xTouch
 x/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.appc2facb6af533b741^6876cd6af533b741^---0#0#0#--233"Touch ./build/Debug/CoralSimulation.app    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    /usr/bin/touch -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app"36"54149BDE-68C7-44CC-8836-AC6C06FE48CE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Touch /Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app028299fef833b741^f2d19afef833b741^---0#0#0#--233"Touch ./build/Debug/CoralSimulation.app    cd "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode"    /usr/bin/touch -c "/Users/mikevanis/Dropbox/My Files/Cinder/CoralSimulation/xcode/./build/Debug/CoralSimulation.app"36"4E2454F4-FDB6-462C-B09F-69A6F58775B0-
 
