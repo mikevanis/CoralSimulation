@@ -43,23 +43,19 @@ ParticleController::ParticleController(int res) {
             }
         }
     }
-    /*
-    test = VectorPoint(Vec3f(400, 400, 0), Vec3f(0, 1, 0), 1.0f);
-    test2 = VectorPoint(Vec3f(400, 300, 200), Vec3f(0, 0, 1), 1.0f);
-    vectorList.push_back(test);
-    vectorList.push_back(test2);*/
 }
 
 void ParticleController::update() {
     
 }
 
-void ParticleController::draw(bool drawVectors, bool drawParticles) {
+void ParticleController::draw() {
     gl::translate(Vec3f(width*resolution/2*-1, height*resolution/2*-1, width*resolution/2*-1));
     // Draw vectors
     if(drawVectors) {
         for(vector<VectorPoint>::iterator v = vectorList.begin(); v!=vectorList.end(); ++v) v->draw();
     }
+    if(drawOBJ && vbo) gl::draw(vbo);
 }
 
 // Add a single vector to the vector list.
@@ -76,10 +72,21 @@ void ParticleController::setGeneralDirection(Vec3f direction) {
     }
 }
 
-// Convert granularity to actual pixels
+// Convert granularity to actual pixels.
 void ParticleController::applyResolution(Vec3f v, int res) {
     v.x = (v.x + 0.5f) * (float)res;
     v.y = (v.y + 0.5f) * (float)res;
     v.z = (v.z + 0.5f) * (float)res;
 //    return v;
+}
+
+// Open up a new Wavefront OBJ file and convert it to a VBO mesh.
+void ParticleController::loadOBJ() {
+    fs::path path = app::getOpenFilePath();
+    if(!path.empty()) {
+        ObjLoader loader(loadFile(path));
+        loader.load(&mesh, true);
+        vbo = gl::VboMesh(mesh);
+        app::console() << "Total verts: " << mesh.getVertices().size() << std::endl;
+    }
 }

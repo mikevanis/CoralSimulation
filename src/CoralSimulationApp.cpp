@@ -3,7 +3,6 @@
 #include "cinder/Camera.h"
 #include "cinder/params/Params.h"
 #include "ParticleController.h"
-#include "VectorPoint.h"
 
 #define RESOLUTION 100
 
@@ -25,7 +24,7 @@ class CoralSimulationApp : public AppNative {
     params::InterfaceGl mParams;
     
     // CAMERA
-    CameraPersp cam;
+    CameraPersp  cam;
     Quatf sceneRotation;
     Vec3f eye, center, up;
     float camDistance;
@@ -40,8 +39,7 @@ void CoralSimulationApp::prepareSettings(Settings *settings) {
     settings->setFrameRate(60.0f);
 }
 
-void CoralSimulationApp::setup()
-{
+void CoralSimulationApp::setup() {
     controller = ParticleController(RESOLUTION);
     
     // CAMERA
@@ -57,15 +55,16 @@ void CoralSimulationApp::setup()
     mParams.addSeparator();
     mParams.addParam("Eye distance", &camDistance, "min=100.0 max=2000.0 step=50.0 keyIncr=s keyDecr=w");
     mParams.addSeparator();
-    mParams.addParam("Draw vectors", &drawVectors, "opened=1");
+    mParams.addButton("Load OBJ", bind(&ParticleController::loadOBJ, controller));
+    mParams.addParam("Draw OBJ", &controller.drawOBJ);
+    mParams.addSeparator();
+    mParams.addParam("Draw vectors", &controller.drawVectors, "opened=1");
 }
 
-void CoralSimulationApp::mouseDown( MouseEvent event )
-{
+void CoralSimulationApp::mouseDown( MouseEvent event ) {
 }
 
-void CoralSimulationApp::update()
-{
+void CoralSimulationApp::update() {
     controller.update();
     eye = Vec3f(0.0f, 0.0f, camDistance);
     cam.lookAt(eye, center, up);
@@ -73,13 +72,12 @@ void CoralSimulationApp::update()
     gl::rotate(sceneRotation);
 }
 
-void CoralSimulationApp::draw()
-{
+void CoralSimulationApp::draw() {
 	gl::clear( Color( 0, 0, 0 ) );
     gl::enableDepthRead();
     gl::enableDepthWrite();
     
-    controller.draw(drawVectors, drawParticles);
+    controller.draw();
     mParams.draw();
 }
 
