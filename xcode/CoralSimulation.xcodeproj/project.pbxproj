@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,10 +14,13 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		9315428E65224C46AFF77EE7 /* CoralSimulation_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 102C819C7C0247D6B6C1A864 /* CoralSimulation_Prefix.pch */; };
 		5D8BD65F14DC42739D3927B7 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8CCFDA552C84F81B13E71B8 /* CinderApp.icns */; };
-		BAF29F9FC28D4094BD3BA361 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3B82CE498A4799A81EEADE /* Resources.h */; };
+		671D9F5E1733F63000B6D9A8 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 671D9F591733F63000B6D9A8 /* Particle.cpp */; };
+		671D9F5F1733F63000B6D9A8 /* ParticleController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 671D9F5A1733F63000B6D9A8 /* ParticleController.cpp */; };
+		671D9F601733F63000B6D9A8 /* Quadrant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 671D9F5B1733F63000B6D9A8 /* Quadrant.cpp */; };
+		671D9F611733F63000B6D9A8 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 671D9F5C1733F63000B6D9A8 /* Util.cpp */; };
+		671D9F621733F63000B6D9A8 /* VectorPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 671D9F5D1733F63000B6D9A8 /* VectorPoint.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C8924ADBDBD44ECAA93B7F0B /* CoralSimulationApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C2846383937423288F37FAF /* CoralSimulationApp.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,17 +30,27 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		102C819C7C0247D6B6C1A864 /* CoralSimulation_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = CoralSimulation_Prefix.pch; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3C2846383937423288F37FAF /* CoralSimulationApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = CoralSimulationApp.cpp; path = ../src/CoralSimulationApp.cpp; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		671D9F541733F61E00B6D9A8 /* Particle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
+		671D9F551733F61E00B6D9A8 /* ParticleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParticleController.h; path = ../include/ParticleController.h; sourceTree = "<group>"; };
+		671D9F561733F61E00B6D9A8 /* Quadrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Quadrant.h; path = ../include/Quadrant.h; sourceTree = "<group>"; };
+		671D9F571733F61E00B6D9A8 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../include/Util.h; sourceTree = "<group>"; };
+		671D9F581733F61E00B6D9A8 /* VectorPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VectorPoint.h; path = ../include/VectorPoint.h; sourceTree = "<group>"; };
+		671D9F591733F63000B6D9A8 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
+		671D9F5A1733F63000B6D9A8 /* ParticleController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleController.cpp; path = ../src/ParticleController.cpp; sourceTree = "<group>"; };
+		671D9F5B1733F63000B6D9A8 /* Quadrant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Quadrant.cpp; path = ../src/Quadrant.cpp; sourceTree = "<group>"; };
+		671D9F5C1733F63000B6D9A8 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.cpp; path = ../src/Util.cpp; sourceTree = "<group>"; };
+		671D9F5D1733F63000B6D9A8 /* VectorPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VectorPoint.cpp; path = ../src/VectorPoint.cpp; sourceTree = "<group>"; };
+		7F537A0A379041BAA2C78323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* CoralSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoralSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C2846383937423288F37FAF /* CoralSimulationApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/CoralSimulationApp.cpp; sourceTree = "<group>"; name = CoralSimulationApp.cpp; };
-		EF3B82CE498A4799A81EEADE /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		D8CCFDA552C84F81B13E71B8 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		7F537A0A379041BAA2C78323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		102C819C7C0247D6B6C1A864 /* CoralSimulation_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = CoralSimulation_Prefix.pch; sourceTree = "<group>"; name = CoralSimulation_Prefix.pch; };
+		D8CCFDA552C84F81B13E71B8 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		EF3B82CE498A4799A81EEADE /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +72,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				671D9F591733F63000B6D9A8 /* Particle.cpp */,
+				671D9F5A1733F63000B6D9A8 /* ParticleController.cpp */,
+				671D9F5B1733F63000B6D9A8 /* Quadrant.cpp */,
+				671D9F5C1733F63000B6D9A8 /* Util.cpp */,
+				671D9F5D1733F63000B6D9A8 /* VectorPoint.cpp */,
 				3C2846383937423288F37FAF /* CoralSimulationApp.cpp */,
 			);
 			name = Source;
@@ -112,17 +137,15 @@
 			name = CoralSimulation;
 			sourceTree = "<group>";
 		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
 				EF3B82CE498A4799A81EEADE /* Resources.h */,
+				671D9F541733F61E00B6D9A8 /* Particle.h */,
+				671D9F551733F61E00B6D9A8 /* ParticleController.h */,
+				671D9F561733F61E00B6D9A8 /* Quadrant.h */,
+				671D9F571733F61E00B6D9A8 /* Util.h */,
+				671D9F581733F61E00B6D9A8 /* VectorPoint.h */,
 				102C819C7C0247D6B6C1A864 /* CoralSimulation_Prefix.pch */,
 			);
 			name = Headers;
@@ -208,6 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8924ADBDBD44ECAA93B7F0B /* CoralSimulationApp.cpp in Sources */,
+				671D9F5E1733F63000B6D9A8 /* Particle.cpp in Sources */,
+				671D9F5F1733F63000B6D9A8 /* ParticleController.cpp in Sources */,
+				671D9F601733F63000B6D9A8 /* Quadrant.cpp in Sources */,
+				671D9F611733F63000B6D9A8 /* Util.cpp in Sources */,
+				671D9F621733F63000B6D9A8 /* VectorPoint.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,31 +245,33 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CoralSimulation_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CoralSimulation_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = CoralSimulation;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -257,19 +287,19 @@
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = CoralSimulation;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../cinder_0.8.5_mac";
+				CINDER_PATH = ../../cinder_0.8.5_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -282,11 +312,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../cinder_0.8.5_mac";
+				CINDER_PATH = ../../cinder_0.8.5_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
