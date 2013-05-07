@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef Fluids3D_Quadrant_h
-#define Fluids3D_Quadrant_h
+#ifndef CoralSimulation_Quadrant_h
+#define CoralSimulation_Quadrant_h
 
 #pragma once
 #include "cinder/Vector.h"

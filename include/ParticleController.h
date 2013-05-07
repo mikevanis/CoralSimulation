@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef Fluids3D_ParticleController_h
-#define Fluids3D_ParticleController_h
+#ifndef CoralSimulation_ParticleController_h
+#define CoralSimulation_ParticleController_h
 
 #pragma once
 #include "Particle.h"
@@ -54,7 +54,7 @@ public:
     
     // OBJ
     cinder::TriMesh	mesh;
-    cinder::gl::VboMesh	vbo;
+    cinder::gl::VboMesh	vboMesh;
     cinder::gl::GlslProg shader;
     cinder::gl::Texture	texture;
     

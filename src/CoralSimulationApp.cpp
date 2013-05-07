@@ -35,6 +35,7 @@ class CoralSimulationApp : public AppNative {
 };
 
 void CoralSimulationApp::prepareSettings(Settings *settings) {
+    settings->enableHighDensityDisplay();
     settings->setWindowSize(1280, 800);
     settings->setFrameRate(60.0f);
 }

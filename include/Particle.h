@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef Fluids3D_Particle_h
-#define Fluids3D_Particle_h
+#ifndef CoralSimulation_Particle_h
+#define CoralSimulation_Particle_h
 
 #pragma once
 #include "cinder/app/AppBasic.h"

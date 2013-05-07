@@ -50,12 +50,18 @@ void ParticleController::update() {
 }
 
 void ParticleController::draw() {
-    gl::translate(Vec3f(width*resolution/2*-1, height*resolution/2*-1, width*resolution/2*-1));
+    gl::translate(Vec3f(app::getWindowWidth()/2*-1, app::getWindowHeight()/2*-1, app::getWindowWidth()/2*-1));
+	glDisable( GL_CULL_FACE );
+    if(drawOBJ && vboMesh) {
+        //gl::pushMatrices();
+        //gl::scale(300, 300, 300);
+        gl::draw(vboMesh);
+        //gl::popMatrices();
+    }
     // Draw vectors
     if(drawVectors) {
         for(vector<VectorPoint>::iterator v = vectorList.begin(); v!=vectorList.end(); ++v) v->draw();
     }
-    if(drawOBJ && vbo) gl::draw(vbo);
 }
 
 // Add a single vector to the vector list.
@@ -86,7 +92,7 @@ void ParticleController::loadOBJ() {
     if(!path.empty()) {
         ObjLoader loader(loadFile(path));
         loader.load(&mesh, true);
-        vbo = gl::VboMesh(mesh);
+        vboMesh = gl::VboMesh(mesh);
         app::console() << "Total verts: " << mesh.getVertices().size() << std::endl;
     }
 }

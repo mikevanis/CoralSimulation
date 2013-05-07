@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef Fluids3D_Util_h
-#define Fluids3D_Util_h
+#ifndef CoralSimulation_Util_h
+#define CoralSimulation_Util_h
 
 class Util {
 public:

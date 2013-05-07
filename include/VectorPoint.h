@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef Fluids3D_VectorPoint_h
-#define Fluids3D_VectorPoint_h
+#ifndef CoralSimulation_VectorPoint_h
+#define CoralSimulation_VectorPoint_h
 
 #pragma once
 #include "cinder/Vector.h"
