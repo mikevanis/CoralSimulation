@@ -6,6 +6,7 @@ dependencies: \
   /Users/mikevanis/Dropbox/My\ Files/Cinder/CoralSimulation/xcode/../include/ParticleController.h \
   ../include/Particle.h ../include/Util.h ../include/VectorPoint.h \
   ../include/Quadrant.h \
+  /Users/mikevanis/Dropbox/My\ Files/Cinder/CoralSimulation/xcode/../include/MeshController.h \
   ../../cinder_0.8.5_mac/include/cinder/ObjLoader.h \
   ../../cinder_0.8.5_mac/include/cinder/TriMesh.h \
   ../../cinder_0.8.5_mac/boost/boost/tuple/tuple_comparison.hpp \

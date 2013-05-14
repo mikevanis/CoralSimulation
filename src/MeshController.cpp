@@ -20,7 +20,7 @@ MeshController::MeshController(string fileName) {
     
     // OBJ
     try {
-        ObjLoader loader((DataSourceRef)app::loadResource(fileName));
+        ObjLoader loader((DataSourceRef)app::loadAsset(fileName));
         loader.load(&mesh);
         app::console() << "Successfully opened OBJ." << endl;
     }
@@ -84,13 +84,14 @@ void MeshController::draw() {
     gl::draw(vbo);
     gl::popMatrices();
     
+    gl::pushMatrices();
     gl::color(1.0f, 0.0f, 0.0f);
-    
     if(drawNormals) {
         for(vector<VectorPoint>::iterator v=normals.begin(); v<normals.end(); ++v) {
             v->draw();
         }
     }
+    gl::popMatrices();
 }
 
 // Calculate all centroids and normals from all triangles in current mesh.

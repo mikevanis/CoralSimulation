@@ -50,18 +50,17 @@ void ParticleController::update() {
 }
 
 void ParticleController::draw() {
+    gl::pushMatrices();
+    
     gl::translate(Vec3f(app::getWindowWidth()/2*-1, app::getWindowHeight()/2*-1, app::getWindowWidth()/2*-1));
-	glDisable( GL_CULL_FACE );
-    if(drawOBJ && vboMesh) {
-        //gl::pushMatrices();
-        //gl::scale(300, 300, 300);
-        gl::draw(vboMesh);
-        //gl::popMatrices();
-    }
     // Draw vectors
+    
+    gl::color(1.0f, 1.0f, 1.0f);
     if(drawVectors) {
         for(vector<VectorPoint>::iterator v = vectorList.begin(); v!=vectorList.end(); ++v) v->draw();
     }
+    
+    gl::popMatrices();
 }
 
 // Add a single vector to the vector list.
@@ -84,15 +83,4 @@ void ParticleController::applyResolution(Vec3f v, int res) {
     v.y = (v.y + 0.5f) * (float)res;
     v.z = (v.z + 0.5f) * (float)res;
 //    return v;
-}
-
-// Open up a new Wavefront OBJ file and convert it to a VBO mesh.
-void ParticleController::loadOBJ() {
-    fs::path path = app::getOpenFilePath();
-    if(!path.empty()) {
-        ObjLoader loader(loadFile(path));
-        loader.load(&mesh, true);
-        vboMesh = gl::VboMesh(mesh);
-        app::console() << "Total verts: " << mesh.getVertices().size() << std::endl;
-    }
 }

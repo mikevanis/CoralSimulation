@@ -15,10 +15,6 @@
 #include "Quadrant.h"
 #include "cinder/app/AppBasic.h"
 #include "cinder/Vector.h"
-#include "cinder/ObjLoader.h"
-#include "cinder/gl/GlslProg.h"
-#include "cinder/gl/Vbo.h"
-#include "cinder/gl/Texture.h"
 #include "cinder/ImageIo.h"
 #include <list>
 #include <vector>
@@ -39,7 +35,6 @@ public:
     void removeParticles(int amt);
     void createQuadrantsFromVectors();
     void setGeneralDirection(ci::Vec3f direction);
-    void loadOBJ();
     
     // Vector search and manipulation
     VectorPoint* getVectorOnLocation(ci::Vec3f &position);
@@ -51,12 +46,6 @@ public:
     std::list<Particle> particleList;
     std::vector<VectorPoint> vectorList;
     std::list<Quadrant> quadrantList;
-    
-    // OBJ
-    cinder::TriMesh	mesh;
-    cinder::gl::VboMesh	vboMesh;
-    cinder::gl::GlslProg shader;
-    cinder::gl::Texture	texture;
     
     bool drawVectors;
     bool drawParticles;

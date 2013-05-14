@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef MeshPlayground_MeshController_h
-#define MeshPlayground_MeshController_h
+#ifndef CoralSimulation_MeshController_h
+#define CoralSimulation_MeshController_h
 
 #pragma once
 #include "cinder/Vector.h"
