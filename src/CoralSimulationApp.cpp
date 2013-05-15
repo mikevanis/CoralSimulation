@@ -77,6 +77,7 @@ void CoralSimulationApp::setup() {
     mParams.addSeparator();
     mParams.addText("Particle system");
     mParams.addParam("Draw vectors", &controller.drawVectors, "opened=1");
+    mParams.addParam("Throw particles", &controller.autoParticles);
     mParams.addSeparator();
     mParams.addButton("Take picture", bind(&CoralSimulationApp::saveImage, this));
     

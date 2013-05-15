@@ -23,6 +23,7 @@ MeshController::MeshController(string fileName) {
         ObjLoader loader((DataSourceRef)app::loadAsset(fileName));
         loader.load(&mesh);
         app::console() << "Successfully opened OBJ." << endl;
+        app::console() << "Vertices: " << mesh.getNumVertices() << endl;
     }
     catch( ... ) {
         app::console() << "OBJ filename invalid. Creating empty mesh..." << endl;

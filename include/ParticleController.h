@@ -16,6 +16,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/Vector.h"
 #include "cinder/ImageIo.h"
+#include "cinder/Rand.h"
 #include <list>
 #include <vector>
 #include <fstream>
@@ -35,12 +36,14 @@ public:
     void removeParticles(int amt);
     void createQuadrantsFromVectors();
     void setGeneralDirection(ci::Vec3f direction);
+    void applyGeneralForce();
     
     // Vector search and manipulation
     VectorPoint* getVectorOnLocation(ci::Vec3f &position);
 //    ci::Vec3f applyResolution(ci::Vec3f v, int res);
     void applyResolution(ci::Vec3f v, int res);
     VectorPoint* currentVector;
+    VectorPoint generalDirection;
     
     // Data structures
     std::list<Particle> particleList;

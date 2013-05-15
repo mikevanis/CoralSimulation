@@ -8,7 +8,7 @@
 
 #include "ParticleController.h"
 
-#define MAXPARTICLES 600
+#define MAXPARTICLES 1200
 
 using namespace ci;
 using std::list;
@@ -43,9 +43,29 @@ ParticleController::ParticleController(int res) {
             }
         }
     }
+    
+    generalDirection = VectorPoint(Vec3f(0, 0, 0), Vec3f(0, 0, 1), 1);
 }
 
 void ParticleController::update() {
+    
+    if(autoParticles) {
+        if(Rand::randInt(100) > 10) {
+            if(particleList.size() < MAXPARTICLES) {
+                float x = Rand::randFloat(app::getWindowWidth());
+                float y = Rand::randFloat(app::getWindowHeight());
+                float z = 0;
+                
+                particleList.push_back(Particle(Vec3f(x, y, z), generalDirection.dir));
+            }
+        }
+    }
+    
+    // Kill particles
+    for(list<Particle>::iterator p=particleList.begin(); p != particleList.end(); ++p) {
+        p->update();
+        if(p->isDead) particleList.erase(p);
+    }
     
 }
 
@@ -61,6 +81,10 @@ void ParticleController::draw() {
     }
     
     gl::popMatrices();
+    
+    for(list<Particle>::iterator p=particleList.begin(); p != particleList.end(); ++p) {
+        p->draw();
+    }
 }
 
 // Add a single vector to the vector list.
@@ -74,6 +98,12 @@ void ParticleController::addVector(Vec3f location, Vec3f direction) {
 void ParticleController::setGeneralDirection(Vec3f direction) {
     for(vector<VectorPoint>::iterator v = vectorList.begin(); v!=vectorList.end(); ++v) {
         v->dir = direction;
+    }
+}
+
+void ParticleController::applyGeneralForce() {
+    for(list<Particle>::iterator p=particleList.begin(); p != particleList.end(); ++p) {
+        p->dir = generalDirection.dir;
     }
 }
 

@@ -13,6 +13,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "Util.h"
+#include "cinder/Rand.h"
 #include <vector>
 
 class Particle {
